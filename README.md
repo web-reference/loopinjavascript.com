@@ -2,6 +2,8 @@
 
 I am interested in collaborative documentation and "learning to code" type things on the internet. This is why I built this (initially) not very great site to teach someone everything they might need to know about loops in JavaScript.
 
+Here is the site: [LoopInJavaScript.com](https://loopinjavascript.com)
+
 This project is an experiment to see what can be produced with some contributions from people in exchange for SATS. So, without further ado... here are the general categories and rewards to improving this site:
 
 | Improvement Category | Reward | Description |
