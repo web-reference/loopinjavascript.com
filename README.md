@@ -16,7 +16,7 @@ This project is an experiment to see what can be produced with some contribution
 
 ## How do I get my reward?
 
-Pretty simple: submit a pull request. Once its accepted, you send me a lightning invoice (or BTC wallet address) and I send you the SATS corredponding with the type of improvement performed. If the improvement doesn't fit into a specifica category, we'll make a new one! The goal is to keep it fair and see what we can get done on a relatively small project before trying it on a larger one and in a more automated reward fashion.
+Pretty simple: submit a pull request. Once it is accepted, you send me a lightning invoice (or BTC wallet address) and I send you the SATS corredponding with the type of improvement performed. If the improvement doesn't fit into a specific category, we'll make a new one! The goal is to keep it fair and see what we can get done on a relatively small project before trying it on a larger one and in a more automated reward fashion.
 
 ## What are SATS?
 
