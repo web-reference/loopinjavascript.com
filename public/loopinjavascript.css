@@ -15,6 +15,8 @@
   src: url('/fonts/Inter-italic.var.woff2') format('woff2');
 }
 
+/* titles */
+
 hgroup.title {
 	margin: 20px;
 	font-size: 1.5em;
@@ -98,14 +100,50 @@ hgroup.title h2 span {
 	display: block;
 	transform: rotate(-2deg);
 }
+
+/* code blocks */
+
 code {
 	background: hsl(230, 1%, 96%);
-    border: 1px solid hsl(230, 1%, 94%);
-    border-radius: 0.2em;
-    padding: 0 0.4em;
-    font-weight: normal;
-    color: hsl(301, 63%, 40%);
-    font-weight: 600;
+	border: 1px solid hsl(230, 1%, 94%);
+	border-radius: 0.2em;
+	padding: 0 0.4em;
+	font-weight: normal;
+	color: hsl(301, 63%, 40%);
+	font-weight: 600;
 	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 	font-size: 0.875em;
+}
+
+/* contribute to github button */
+
+#contribute {
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	z-index: 2;
+}
+#contribute a, #contribute a:visited {
+	padding: 2px 7px;
+	color: #fff;
+	font-size: 1.25rem;
+	font-family: 'VT323', monospace;
+	text-shadow: -2px 2px 0px rgb(0 0 0 / 35%);
+	background: #0ea5e9;
+	display: block;
+	position: relative;
+	top: 0.1em;
+	left: 0.1em;
+	right: 0.1em;
+	bottom: 0.05em;
+	transform: rotate(-5deg) skew(-5deg, 2deg);
+	transition: opacity .05s linear;
+}
+#contribute a:hover {
+	opacity: 0.75;
+}
+@media (max-width: 1100px) {
+	#contribute {
+		display: none;
+	}
 }
